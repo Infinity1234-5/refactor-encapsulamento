@@ -13,5 +13,5 @@ function criarItem(nome: string, quantidade: number) {
 console.log(criarItem("suco de caju", 2));
 
 const cardapio = [{ nome: "x-burguer", preco: 18.9 }];
-const pedido = cardapio.find((item) => item.nome === "x-burguer");
-console.log(pedido?.nome);
+// const pedido = cardapio.find((item) => item.nome === "x-burguer");
+// console.log(pedido?.nome);
